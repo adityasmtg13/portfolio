@@ -167,6 +167,7 @@ const experiences = [
     position: 'Visteon Scholar',
     org: 'Visteon Corporation',
     date: '2026 — Present',
+    badge: 'Industry Training',
     summary:
       "Selected for the prestigious Visteon Scholar Program, gaining industry exposure through technical training, engineering projects, and research-driven learning in software and automotive technologies.",
     skills: ['Software Engineering', 'Embedded Systems', 'Industry Training'],
@@ -175,6 +176,7 @@ const experiences = [
     position: 'Deputy Captain – Marketing & Social Media',
     org: 'IETE VIT-AP Student Chapter',
     date: '2025 — Present',
+    badge: 'Leadership',
     summary:
       "Leading marketing strategy and digital outreach for one of the university's largest technical communities while collaborating with multidisciplinary teams to organize technical events.",
     skills: ['Leadership', 'Marketing', 'Event Management'],
@@ -183,6 +185,7 @@ const experiences = [
     position: 'Data Science Intern',
     org: 'Coratia Technologies',
     date: 'Feb 2024 - Mar 2024',
+    badge: 'Internship',
     summary:
       'Worked on real-world data analysis projects involving data preprocessing, visualization, and machine learning fundamentals to generate meaningful business insights.',
     skills: ['Python', 'Data Analysis', 'Machine Learning'],
@@ -852,6 +855,7 @@ export default function Portfolio() {
                   <p className="text-sm text-white/45">{item.date}</p>
                   <div className="mt-2 flex items-center gap-3">
                     <p className="text-lg font-semibold text-white">{item.position}</p>
+                    <span className="inline-block rounded-full bg-white/6 px-2 py-1 text-xs text-white/70">{item.badge}</span>
                   </div>
                   <p className="mt-1 text-sm text-white/45">{item.org}</p>
                 </div>
