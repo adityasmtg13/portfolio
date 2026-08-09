@@ -852,7 +852,6 @@ export default function Portfolio() {
                   <p className="text-sm text-white/45">{item.date}</p>
                   <div className="mt-2 flex items-center gap-3">
                     <p className="text-lg font-semibold text-white">{item.position}</p>
-                    <span className="inline-block rounded-full bg-white/6 px-2 py-1 text-xs text-white/70">{item.badge}</span>
                   </div>
                   <p className="mt-1 text-sm text-white/45">{item.org}</p>
                 </div>
